@@ -1,0 +1,299 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.flowstable.upi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:6:5-69
+12-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:6:22-66
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:7:22-62
+14
+15    <uses-feature android:name="android.hardware.camera.any" />
+15-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:8:5-64
+15-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:8:19-61
+16
+17    <permission
+17-->[androidx.core:core:1.12.0] C:\Users\meet1\.gradle\caches\transforms-3\2ccd268e0ca2e1cd10ec650ac8067a3e\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.flowstable.upi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.12.0] C:\Users\meet1\.gradle\caches\transforms-3\2ccd268e0ca2e1cd10ec650ac8067a3e\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.12.0] C:\Users\meet1\.gradle\caches\transforms-3\2ccd268e0ca2e1cd10ec650ac8067a3e\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.flowstable.upi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+21-->[androidx.core:core:1.12.0] C:\Users\meet1\.gradle\caches\transforms-3\2ccd268e0ca2e1cd10ec650ac8067a3e\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.12.0] C:\Users\meet1\.gradle\caches\transforms-3\2ccd268e0ca2e1cd10ec650ac8067a3e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+22    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+23-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+24
+25    <application
+25-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:10:5-60:19
+26        android:allowBackup="true"
+26-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] C:\Users\meet1\.gradle\caches\transforms-3\2ccd268e0ca2e1cd10ec650ac8067a3e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:12:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:13:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:14:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:15:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:16:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:17:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.FlowStableUPI" >
+37-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:18:9-51
+38        <activity
+38-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:21:9-28:20
+39            android:name="com.flowstable.upi.MainActivity"
+39-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:22:13-41
+40            android:exported="true" >
+40-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:23:13-36
+41            <intent-filter>
+41-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:24:13-27:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:25:17-69
+42-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:25:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:26:17-77
+44-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:26:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:30:9-33:52
+48            android:name="com.flowstable.upi.ScannerActivity"
+48-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:31:13-44
+49            android:exported="false"
+49-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:32:13-37
+50            android:screenOrientation="portrait" />
+50-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:33:13-49
+51        <activity
+51-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:35:9-37:40
+52            android:name="com.flowstable.upi.PaymentActivity"
+52-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:36:13-44
+53            android:exported="false" />
+53-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:37:13-37
+54        <activity
+54-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.flowstable.upi.ProcessingActivity"
+55-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:40:13-47
+56            android:exported="false" />
+56-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:43:9-45:40
+58            android:name="com.flowstable.upi.ResultActivity"
+58-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:44:13-43
+59            android:exported="false" />
+59-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:45:13-37
+60
+61        <service
+61-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:47:9-58:19
+62            android:name="com.flowstable.upi.ussd.USSDService"
+62-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:48:13-45
+63            android:exported="true"
+63-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:51:13-36
+64            android:label="@string/accessibility_service_label"
+64-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:49:13-64
+65            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+65-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:50:13-79
+66            <intent-filter>
+66-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:52:13-54:29
+67                <action android:name="android.accessibilityservice.AccessibilityService" />
+67-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:53:17-92
+67-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:53:25-89
+68            </intent-filter>
+69
+70            <meta-data
+70-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:55:13-57:72
+71                android:name="android.accessibilityservice"
+71-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:56:17-60
+72                android:resource="@xml/accessibility_service_config" />
+72-->C:\Users\meet1\OneDrive\Desktop\flowstate\flowstable-UPI\app\src\main\AndroidManifest.xml:57:17-69
+73        </service>
+74        <service
+74-->[androidx.camera:camera-camera2:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\b0511461a22b4ec804d33f3f6245e333\transformed\camera-camera2-1.3.0\AndroidManifest.xml:24:9-33:19
+75            android:name="androidx.camera.core.impl.MetadataHolderService"
+75-->[androidx.camera:camera-camera2:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\b0511461a22b4ec804d33f3f6245e333\transformed\camera-camera2-1.3.0\AndroidManifest.xml:25:13-75
+76            android:enabled="false"
+76-->[androidx.camera:camera-camera2:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\b0511461a22b4ec804d33f3f6245e333\transformed\camera-camera2-1.3.0\AndroidManifest.xml:26:13-36
+77            android:exported="false" >
+77-->[androidx.camera:camera-camera2:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\b0511461a22b4ec804d33f3f6245e333\transformed\camera-camera2-1.3.0\AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.camera:camera-camera2:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\b0511461a22b4ec804d33f3f6245e333\transformed\camera-camera2-1.3.0\AndroidManifest.xml:30:13-32:89
+79                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+79-->[androidx.camera:camera-camera2:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\b0511461a22b4ec804d33f3f6245e333\transformed\camera-camera2-1.3.0\AndroidManifest.xml:31:17-103
+80                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+80-->[androidx.camera:camera-camera2:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\b0511461a22b4ec804d33f3f6245e333\transformed\camera-camera2-1.3.0\AndroidManifest.xml:32:17-86
+81        </service>
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\meet1\.gradle\caches\transforms-3\6f6fec51fc0bf858d6900b90dd62d6da\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\meet1\.gradle\caches\transforms-3\6f6fec51fc0bf858d6900b90dd62d6da\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+85            android:authorities="com.flowstable.upi.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\meet1\.gradle\caches\transforms-3\6f6fec51fc0bf858d6900b90dd62d6da\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\meet1\.gradle\caches\transforms-3\6f6fec51fc0bf858d6900b90dd62d6da\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\meet1\.gradle\caches\transforms-3\6f6fec51fc0bf858d6900b90dd62d6da\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\meet1\.gradle\caches\transforms-3\6f6fec51fc0bf858d6900b90dd62d6da\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\meet1\.gradle\caches\transforms-3\6f6fec51fc0bf858d6900b90dd62d6da\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\meet1\.gradle\caches\transforms-3\bbd237f7361595eb5e5cf3bde898df2a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\meet1\.gradle\caches\transforms-3\bbd237f7361595eb5e5cf3bde898df2a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\meet1\.gradle\caches\transforms-3\bbd237f7361595eb5e5cf3bde898df2a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+95                android:value="androidx.startup" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+96        </provider>
+97
+98        <service
+98-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\meet1\.gradle\caches\transforms-3\0c0d436d0227e2c95b7e843a2058fd8a\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+99            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+99-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\meet1\.gradle\caches\transforms-3\0c0d436d0227e2c95b7e843a2058fd8a\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+100            android:directBootAware="true"
+100-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:17:13-43
+101            android:exported="false" >
+101-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\meet1\.gradle\caches\transforms-3\0c0d436d0227e2c95b7e843a2058fd8a\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+102            <meta-data
+102-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\meet1\.gradle\caches\transforms-3\0c0d436d0227e2c95b7e843a2058fd8a\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+103                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+103-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\meet1\.gradle\caches\transforms-3\0c0d436d0227e2c95b7e843a2058fd8a\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\meet1\.gradle\caches\transforms-3\0c0d436d0227e2c95b7e843a2058fd8a\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+105            <meta-data
+105-->[com.google.mlkit:vision-common:17.3.0] C:\Users\meet1\.gradle\caches\transforms-3\1ce9d18d672efd13a3164d8f8f1843eb\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+106                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+106-->[com.google.mlkit:vision-common:17.3.0] C:\Users\meet1\.gradle\caches\transforms-3\1ce9d18d672efd13a3164d8f8f1843eb\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.mlkit:vision-common:17.3.0] C:\Users\meet1\.gradle\caches\transforms-3\1ce9d18d672efd13a3164d8f8f1843eb\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+108            <meta-data
+108-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:20:13-22:85
+109                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+109-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:21:17-120
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:22:17-82
+111        </service>
+112
+113        <provider
+113-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:9:9-13:38
+114            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+114-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:10:13-78
+115            android:authorities="com.flowstable.upi.mlkitinitprovider"
+115-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:11:13-69
+116            android:exported="false"
+116-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:12:13-37
+117            android:initOrder="99" />
+117-->[com.google.mlkit:common:18.9.0] C:\Users\meet1\.gradle\caches\transforms-3\fd9d555fa43216779cbd948de1537098\transformed\common-18.9.0\AndroidManifest.xml:13:13-35
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\meet1\.gradle\caches\transforms-3\a07423590cddbae4afa1a8ffe54409e1\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\meet1\.gradle\caches\transforms-3\a07423590cddbae4afa1a8ffe54409e1\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\meet1\.gradle\caches\transforms-3\a07423590cddbae4afa1a8ffe54409e1\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\meet1\.gradle\caches\transforms-3\a07423590cddbae4afa1a8ffe54409e1\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\meet1\.gradle\caches\transforms-3\d83dac885cb6847a1d0c23c51a2a758d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\meet1\.gradle\caches\transforms-3\d83dac885cb6847a1d0c23c51a2a758d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\meet1\.gradle\caches\transforms-3\d83dac885cb6847a1d0c23c51a2a758d\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+127
+128        <receiver
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+129            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+130            android:directBootAware="false"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+131            android:enabled="true"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+132            android:exported="true"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+133            android:permission="android.permission.DUMP" >
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+135                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+138                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+141                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+144                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\meet1\.gradle\caches\transforms-3\90a5c045bb237d34bfde7528c354fcd3\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+145            </intent-filter>
+146        </receiver>
+147
+148        <service
+148-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+149            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+149-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+150            android:exported="false" >
+150-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+151            <meta-data
+151-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+152                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+153                android:value="cct" />
+153-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\meet1\.gradle\caches\transforms-3\2179d1c02cd45167072b55de627d46d7\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+154        </service>
+155        <service
+155-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\meet1\.gradle\caches\transforms-3\9191281fe62af8f8723f673456fbf62a\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+156            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+156-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\meet1\.gradle\caches\transforms-3\9191281fe62af8f8723f673456fbf62a\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+157            android:exported="false"
+157-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\meet1\.gradle\caches\transforms-3\9191281fe62af8f8723f673456fbf62a\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+158            android:permission="android.permission.BIND_JOB_SERVICE" >
+158-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\meet1\.gradle\caches\transforms-3\9191281fe62af8f8723f673456fbf62a\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+159        </service>
+160
+161        <receiver
+161-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\meet1\.gradle\caches\transforms-3\9191281fe62af8f8723f673456fbf62a\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+162            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+162-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\meet1\.gradle\caches\transforms-3\9191281fe62af8f8723f673456fbf62a\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+163            android:exported="false" />
+163-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\meet1\.gradle\caches\transforms-3\9191281fe62af8f8723f673456fbf62a\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+164    </application>
+165
+166</manifest>

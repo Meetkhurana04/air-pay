@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.flowstable.upi.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.flowstable.upi.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\layout_activity_scanner.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_arrow_down.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_circle_bg_action.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\circle_bg_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_upi.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_upi.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_error.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_bank.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_bg_search_pill.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\bg_search_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_call.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_circle_bg_small.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\circle_bg_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_mobile.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_mobile.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\layout_activity_processing.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\layout\\activity_processing.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_circle_indicator.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\circle_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_scanner_frame.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\scanner_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_success.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_qr_scan.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_qr_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\xml\\accessibility_service_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-merged_res-38:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.2\\com.flowstable.upi.app-main-40:\\xml\\data_extraction_rules.xml"
+    }
+]
